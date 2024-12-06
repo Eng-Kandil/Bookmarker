@@ -1,0 +1,40 @@
+:root{
+    --Pacifico-font: "Pacifico", cursive;
+    --Righteous-font: "Righteous", sans-serif;
+    --PTSans-font: "PT Sans", sans-serif;
+}
+.pacifico{
+    font-family: var(--Pacifico-font);
+    font-size: 3.2rem;
+    color: #352E28;
+}
+.righteous{
+    font-family: var(--Righteous-font);
+    font-size: 1.5rem;
+    /* color: #212529; */
+    background-image: linear-gradient(to right, red , yellow);
+    color: transparent;
+    background-clip: text;
+}
+.ptSans{
+    font-family: var(--PTSans-font);
+    font-size: 1rem;
+    color: #212529;
+    font-weight: 600;
+}
+.btn-danger{
+    background-color:rgb(209, 81, 45);
+}
+
+body{
+    background-color: #F7ECDD;
+}
+
+.dotted{
+    border: 1px solid;
+    border-style:dashed;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
